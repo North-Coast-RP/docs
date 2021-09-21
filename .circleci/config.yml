@@ -5,10 +5,10 @@ jobs:
       - image: python:3.9
     steps:
        - checkout
-      - run:
+       - run:
           name: Register Python alias for compatibility
           command: alias python='python3'
-      - run:
+       - run:
           name: Install Python dependencies
           command: python3 -m pip install --upgrade -r requirements.txt
 
