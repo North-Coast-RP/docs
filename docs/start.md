@@ -1,37 +1,33 @@
 ## Welcome to the start guide for NCRP
 Below you will find the steps to start playing on our servers.
 
-### How to use Vmenu.
-We currently use Vmenu for creating players, spawning vehicles, and getting weapons in the server
+### Keybinds
 
-To open Vmenu press F1 on your keyboard.
+| Key | Name | Discription |
+| --- | ---- | ----------- |
+| X | Handsup | Quickly puts your hands up |
+| E | Slash Tire | While holding a knife walk up to a vehicle and slash a tire |
+| H | Open Trunk | While near the trunk of a vehicle hold H to open the trunk |
+| G | Go in Trunk | While near the trunk of a vehicle hold G to go inside the trunk of a vehicle |
+| Y | Clothing Menu | Click Y to open our Clothing menu, where you can take off your clothes, shirts, pants, vests, etc.|
+| O | LVC | Manage Sirens, This is for LEO or fire vehicles. |
+| , | Emote Menu | Open our emote menu, can also use /emote emotename |
+| - | Left Turn Signal | Hold - to turn on your left turn signal |
+| = | Right Turn Signal | Hold to turn on your right turn signal |
+| Backspace | Hazards | Hold backspace to turn on your hazard lights |
+| F1 | Open Vmenu | Open the Vmenu for peds, vehicles and weapons, and more |
+| F2 | No CLip | Go into noclip. |
+| F3 | Civ Menu | Open our Civ menu for Props, Obervations, Player inventory, vehicle inventory |
+| F5 on foot | Scene Menu | Spawn Police Props for scenes, set speed limits on roads or stop traffic |
+| F5 in Vehicle | Radar | Open the Police radar. |
+| F6 | Vstancer | Edit vehicle wheel postions. |
+| F7 | Teleport | teleport to a selected waypoint |
+| F8 | Open Console | n/a |
+| F9 | Weapon Saftey | Turn on the carbine rifes safety |
+| F10 | Rate of Fire | Chage the rate of fire of you rifle |
 
-You will have the following options for normal users.
-
-| Name | Description |
-| ---- | ----------- |
-| Online Players | Check to see who is online, TP to other players. |
-| Player Related Options | Heal yourself, change your ped, create MP peds, add or remove weapons |
-| Vehicle Related options | Spawn Vehicles, edit vehicles |
-| Voice Chat Settings | Manage your voice settings |
-| Recording Options | make clips while in game to edit later |
-| Misc Settings | Vmenu Settings, wear you can save your settings, clear locals from a scene, etc. |
-
-### How to create a player in Vmenu
-
-In order to create a player in Vmenu, you will select mp ped customization in player related options.
-
-![MPCustomize](img/vmenu-ped.jpg)
-
-Then you will click on either Create Male Character, or Create Female Character.
-
-![MPPickGender](img/vmenu-ped2.jpg)
-
-After selecting the gender of you ped you will then be given the options, to choose appearance, tattoos, clothes, and props.
-
-![MPcreateped](img/vmenu-createped.jpg)
-
-After creating your character, make sure you save it, it will close after. Make sure you give it a name you will remember. 
 !!! tip
-    You can only have one character with the same name, if you have more then one of the same ped, with different clothes you will need to add to the name for it to save.
+    Check your kybinds in Settings - FiveM. Most of our sripts allow you set your own key binds.
+
+
 

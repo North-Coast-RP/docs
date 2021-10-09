@@ -24,6 +24,8 @@ plugins:
 nav:
   - Home: 'index.md'
   - Get Started: 'start.md'
+  - Scripts:
+    - Vmenu: 'scripts/vmenu.md'
   - Commands:
     - SASO: 'cmds/sheriff.md'
     - SAFR: 'cmds/fire.md'
