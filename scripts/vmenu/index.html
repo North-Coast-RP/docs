@@ -13,14 +13,14 @@
         <meta name="author" content="NCRP">
       
       
-        <link rel="canonical" href="https://docs.northcoastrp.net/cmds/civ/">
+        <link rel="canonical" href="https://docs.northcoastrp.net/scripts/vmenu/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.3.2">
     
     
       
-        <title>CIV - NCRP Documentation</title>
+        <title>Vmenu - NCRP Documentation</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#civilian-commands" class="md-skip">
+        <a href="#how-to-use-vmenu" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CIV
+              Vmenu
             
           </span>
         </div>
@@ -218,12 +218,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -244,11 +246,119 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../scripts/vmenu/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Vmenu
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Vmenu
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-player-in-vmenu" class="md-nav__link">
+    How to create a player in Vmenu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-edit-a-player-in-vmenu" class="md-nav__link">
+    How to edit a player in Vmenu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spawning-weapons-in-vmenu" class="md-nav__link">
+    Spawning weapons in Vmenu
+  </a>
+  
+    <nav class="md-nav" aria-label="Spawning weapons in Vmenu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saving-as-a-loadout" class="md-nav__link">
+    Saving as a loadout.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spawning-vehicles-in-vmenu" class="md-nav__link">
+    Spawning vehicles in Vmenu
+  </a>
+  
+    <nav class="md-nav" aria-label="Spawning vehicles in Vmenu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-options" class="md-nav__link">
+    Vehicle Options
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-spawner" class="md-nav__link">
+    Vehicle Spawner
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saved-vehicles" class="md-nav__link">
+    Saved Vehicles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-vehicle" class="md-nav__link">
+    Personal Vehicle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -266,14 +376,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
@@ -296,7 +404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sheriff/" class="md-nav__link">
+      <a href="../../cmds/sheriff/" class="md-nav__link">
         SASO
       </a>
     </li>
@@ -310,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fire/" class="md-nav__link">
+      <a href="../../cmds/fire/" class="md-nav__link">
         SAFR
       </a>
     </li>
@@ -322,47 +430,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          CIV
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../cmds/civ/" class="md-nav__link">
         CIV
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#civilian-commands" class="md-nav__link">
-    Civilian Commands
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -390,6 +462,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -398,9 +472,77 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#civilian-commands" class="md-nav__link">
-    Civilian Commands
+  <a href="#how-to-create-a-player-in-vmenu" class="md-nav__link">
+    How to create a player in Vmenu
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-edit-a-player-in-vmenu" class="md-nav__link">
+    How to edit a player in Vmenu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spawning-weapons-in-vmenu" class="md-nav__link">
+    Spawning weapons in Vmenu
+  </a>
+  
+    <nav class="md-nav" aria-label="Spawning weapons in Vmenu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saving-as-a-loadout" class="md-nav__link">
+    Saving as a loadout.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spawning-vehicles-in-vmenu" class="md-nav__link">
+    Spawning vehicles in Vmenu
+  </a>
+  
+    <nav class="md-nav" aria-label="Spawning vehicles in Vmenu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-options" class="md-nav__link">
+    Vehicle Options
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-spawner" class="md-nav__link">
+    Vehicle Spawner
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saved-vehicles" class="md-nav__link">
+    Saved Vehicles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-vehicle" class="md-nav__link">
+    Personal Vehicle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -417,9 +559,84 @@
               
                 
                 
-                  <h1>CIV</h1>
-                
-                <h2 id="civilian-commands">Civilian Commands</h2>
+                <h1 id="how-to-use-vmenu">How to use Vmenu.</h1>
+<p>We currently use Vmenu for creating players, spawning vehicles, and getting weapons in the server</p>
+<p>To open Vmenu press F1 on your keyboard.</p>
+<p>You will have the following options for normal users.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Online Players</td>
+<td>Check to see who is online, TP to other players.</td>
+</tr>
+<tr>
+<td>Player Related Options</td>
+<td>Heal yourself, change your ped, create MP peds, add or remove weapons</td>
+</tr>
+<tr>
+<td>Vehicle Related options</td>
+<td>Spawn Vehicles, edit vehicles</td>
+</tr>
+<tr>
+<td>Voice Chat Settings</td>
+<td>Manage your voice settings</td>
+</tr>
+<tr>
+<td>Recording Options</td>
+<td>make clips while in game to edit later</td>
+</tr>
+<tr>
+<td>Misc Settings</td>
+<td>Vmenu Settings, wear you can save your settings, clear locals from a scene, etc.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-to-create-a-player-in-vmenu">How to create a player in Vmenu</h2>
+<p>In order to create a player in Vmenu, you will select mp ped customization in player related options.</p>
+<p><img alt="MPCustomize" src="../../img/vmenu-ped.jpg" /></p>
+<p>Then you will click on either Create Male Character, or Create Female Character.</p>
+<p><img alt="MPPickGender" src="../../img/vmenu-ped2.jpg" /></p>
+<p>After selecting the gender of you ped you will then be given the options, to choose appearance, tattoos, clothes, and props.</p>
+<p><img alt="MPcreateped" src="../../img/vmenu-createped.jpg" /></p>
+<p>After creating your character, make sure you save it, it will close after. Make sure you give it a name you will remember. </p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can only have one character with the same name, if you have more then one of the same ped, with different clothes you will need to add to the name for it to save.</p>
+</div>
+<h2 id="how-to-edit-a-player-in-vmenu">How to edit a player in Vmenu</h2>
+<p>In order to edit a player in Vmenu, you will select mp ped customization in player related options.</p>
+<p><img alt="MPCustomize" src="../../img/vmenu-ped.jpg" /></p>
+<p>Then you will need to click on Saved Peds</p>
+<p><img alt="MPPickoption" src="../../img/vmenu-ped2.jpg" /></p>
+<p>Then select the saved ped to edit.</p>
+<p><img alt="MPPickoption" src="../../img/savedped.jpg" /></p>
+<h2 id="spawning-weapons-in-vmenu">Spawning weapons in Vmenu</h2>
+<p>In order to get weapons in Vmenu, you will select weapon options in player related options.</p>
+<p><img alt="MPCustomize" src="../../img/vmenu-ped.jpg" /></p>
+<p>afterwards you may click on spawn by name, or go thought each category and spawn the weapons you would like.</p>
+<p><img alt="MPCustomize" src="../../img/weapons.jpg" /></p>
+<h3 id="saving-as-a-loadout">Saving as a loadout.</h3>
+<p>to save you weapons in a loadout you will need to click on weapon loadouts in player related options</p>
+<p><img alt="MPCustomize" src="../../img/vmenu-ped.jpg" /></p>
+<p>then you will select save loadout to save the loadout you have. Edit the load out, to edit your saved loadouts</p>
+<p><img alt="MPLoadout" src="../../img/loadouts.jpg" /></p>
+<h2 id="spawning-vehicles-in-vmenu">Spawning vehicles in Vmenu</h2>
+<p>In order to spawn vehicles in Vmenu, you will need to select vehicle options.</p>
+<p><img alt="MPCustomize" src="../../img/veh.jpg" /></p>
+<h3 id="vehicle-options">Vehicle Options</h3>
+<p>Select vehicle options to edit your paint, liverys, vehicle mods, etc</p>
+<h3 id="vehicle-spawner">Vehicle Spawner</h3>
+<p>Spawn vehicles by name, categories, etc</p>
+<h3 id="saved-vehicles">Saved Vehicles</h3>
+<p>Save vehicles to use for later, spawn saved vehicles.</p>
+<h3 id="personal-vehicle">Personal Vehicle</h3>
+<p>Set your personal vehicle, where you can lock the doors, turn the engine on while near the vehicle, etc</p>
                 
               
               
@@ -439,7 +656,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../fire/" class="md-footer__link md-footer__link--prev" aria-label="Previous: SAFR" rel="prev">
+        <a href="../../start/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Get Started" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -448,11 +665,26 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              SAFR
+              Get Started
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../../cmds/sheriff/" class="md-footer__link md-footer__link--next" aria-label="Next: SASO" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              SASO
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
