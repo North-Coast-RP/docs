@@ -17,6 +17,7 @@ markdown_extensions:
   - codehilite
   - toc
   - footnotes
+  - attr_list
 
 plugins:
     - search
@@ -26,6 +27,7 @@ nav:
   - Get Started: 'start.md'
   - Scripts:
     - Vmenu: 'scripts/vmenu.md'
+    - Radio: 'scripts/radio.md'
   - Commands:
     - SASO: 'cmds/sheriff.md'
     - SAFR: 'cmds/fire.md'

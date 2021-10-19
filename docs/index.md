@@ -1,6 +1,9 @@
 ![banner](img/banner.png)
 # Welcome to the NCRP documentation! 
 
+[Requirement Discord](https://discord.gg/PyzwqUUWWU){ .md-button }     [Community Guidelines](https://docs.google.com/document/d/1U2IT59f59-nzCpr0Fd1wA6GagktIewSyTtXyhbXIZ9g/edit){ .md-button }
+
+
 ## What is NCRP?
 
 North Coast Roleplay is a Emergency Services roleplay community. We strive for the most realistic experience, starting the day you join the recruitment server. From arrest processes to laws, we have ensured that this will provide the closest thing to IRL as possible, yet still keeping it fun. 
@@ -18,4 +21,4 @@ This site will serve for any development of our servers. You will find keybindin
 ## Our Development Trello
 You may visit the following link to view our Trello board
 
-[https://trello.com/b/M1sM87Gl/ncrp-development](https://trello.com/b/M1sM87Gl/ncrp-development)
+[Our Trello](https://trello.com/b/M1sM87Gl/ncrp-development){ .md-button }

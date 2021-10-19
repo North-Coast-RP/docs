@@ -14,6 +14,7 @@ Below you will find the steps to start playing on our servers.
 | , | Emote Menu | Open our emote menu, can also use /emote emotename |
 | - | Left Turn Signal | Hold - to turn on your left turn signal |
 | = | Right Turn Signal | Hold to turn on your right turn signal |
+| ; | Open up SAPR radio script |
 | Backspace | Hazards | Hold backspace to turn on your hazard lights |
 | F1 | Open Vmenu | Open the Vmenu for peds, vehicles and weapons, and more |
 | F2 | No CLip | Go into noclip. |
