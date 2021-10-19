@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.northcoastrp.net/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.northcoastrp.net/start/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.northcoastrp.net/cmds/civ/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.northcoastrp.net/cmds/fire/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.northcoastrp.net/cmds/sheriff/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.northcoastrp.net/scripts/radio/</loc>
+         <lastmod>2021-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.northcoastrp.net/scripts/vmenu/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
