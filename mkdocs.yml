@@ -24,6 +24,7 @@ plugins:
 
 nav:
   - Home: 'index.md'
+  - Change Log: 'changelog/v1.0.0.md'
   - Get Started: 'start.md'
   - Scripts:
     - Vmenu: 'scripts/vmenu.md'
@@ -32,4 +33,5 @@ nav:
     - SASO: 'cmds/sheriff.md'
     - SAFR: 'cmds/fire.md'
     - CIV: 'cmds/civ.md'
+  
 
