@@ -34,11 +34,11 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
       - hold:
           type: approval
-          requires:
-            - build
-      - docs-deploy:
+      -build:
           requires:
             - hold
+      - docs-deploy:
+          requires:
+            - build
