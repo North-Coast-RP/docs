@@ -5,6 +5,7 @@ Below you will find the steps to start playing on our servers.
 
 | Key | Name | Discription |
 | --- | ---- | ----------- |
+| M | NCRP Menu | LEO, FIRE, CIV Toolbox |
 | X | Handsup | Quickly puts your hands up |
 | E | Slash Tire | While holding a knife walk up to a vehicle and slash a tire |
 | H | Open Trunk | While near the trunk of a vehicle hold H to open the trunk |
@@ -18,8 +19,6 @@ Below you will find the steps to start playing on our servers.
 | Backspace | Hazards | Hold backspace to turn on your hazard lights |
 | F1 | Open Vmenu | Open the Vmenu for peds, vehicles and weapons, and more |
 | F2 | No CLip | Go into noclip. |
-| F3 | Civ Menu | Open our Civ menu for Props, Obervations, Player inventory, vehicle inventory |
-| F5 on foot | Scene Menu | Spawn Police Props for scenes, set speed limits on roads or stop traffic |
 | F5 in Vehicle | Radar | Open the Police radar. |
 | F6 | Vstancer | Edit vehicle wheel postions. |
 | F7 | Teleport | teleport to a selected waypoint |
@@ -28,7 +27,7 @@ Below you will find the steps to start playing on our servers.
 | F10 | Rate of Fire | Chage the rate of fire of you rifle |
 
 !!! tip
-    Check your kybinds in Settings - FiveM. Most of our sripts allow you set your own key binds.
+    Check your kybinds in Settings - FiveM. Most of our sripts allow you set your own key binds. You can also remove some of the keybinds that you dont use.
 
 
 
