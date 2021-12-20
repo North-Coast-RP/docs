@@ -26,6 +26,10 @@ nav:
   - Home: 'index.md'
   - Change Log: 'changelog/v1.0.0.md'
   - Get Started: 'start.md'
+  - Vehicle List:
+    - 'vehicles/leo.md'
+    - 'vehicles/safr.md'
+    - 'vehicles/civ.md'
   - Scripts:
     - Vmenu: 'scripts/vmenu.md'
     - Radio: 'scripts/radio.md'
